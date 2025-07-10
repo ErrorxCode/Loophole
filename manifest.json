@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Loophole",
+  "version": "1.0",
+  "author": "Rahil Khan",
+  "version_name": "1.0",
+  "description": "No more restrictions on website, No more voilation of right to freedom. Now easily tab/window switch, copy/paste, spoof screen recording on websites",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "action": {
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
